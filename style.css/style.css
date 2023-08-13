@@ -1,0 +1,23 @@
+body{
+    background-color: #0D6EFD;
+    margin:0;
+    padding: 0;
+    background-size: 100% auto;
+    font-family: 'Roboto';
+}
+#banner{
+    display: none;
+}
+@media only screen and (max-width:600px){
+    #banner{
+        display: inline-block;
+    }
+   body{
+    margin: 0;
+    padding: 0;
+   }
+
+    img{
+        width:100%;
+    }
+}

@@ -1,0 +1,23 @@
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
+form{
+    font-family: 'Roboto';
+    width:24%;
+    margin-top:150px;
+    border-radius: 15px;
+    padding: 50px;
+}
+
+.btn-primary{
+    width:100%;
+    border-radius: 50px;
+}
+
+@media only screen and (max-width:600px) {
+    form{
+        width: 100%;
+    }
+}
