@@ -1,16 +1,26 @@
 body{
     background-color: #0D6EFD;
-    margin:0;
     padding: 0;
     background-size: 100% auto;
     font-family: 'Roboto';
 }
 #banner{
-    display: none;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally within its container */
+}
+.sec{
+    background-color: #175abe;
+}
+
+.btn{
+    background-color: #0950C9;
 }
 @media only screen and (max-width:600px){
     #banner{
         display: inline-block;
+        width: 100%;
     }
    body{
     margin: 0;
@@ -20,4 +30,25 @@ body{
     img{
         width:100%;
     }
+    .social {
+        width:12 ;
+    }
+}
+
+.card-img-custom {
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover;
+}
+.full-banner{
+    background-image: url('../assets/—Pngtree—blue\ background_919872.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+img.full-banner{
+    width: 100%;
 }
